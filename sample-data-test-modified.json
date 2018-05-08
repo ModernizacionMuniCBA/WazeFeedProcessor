@@ -1,0 +1,324 @@
+{
+	"alerts": [
+	{
+		"country": "AR",
+		"nThumbsUp": 0,
+		"city": "Córdoba",
+		"reportRating": 0,
+		"confidence": 0,
+		"reliability": 5,
+		"type": "JAM",
+		"uuid": "b6d41a57-ae31-3c3f-837b-nnnnnn",
+		"roadType": 1,
+		"magvar": 43,
+		"subtype": "JAM_HEAVY_TRAFFIC",
+		"location": {
+			"x": -64.235714,
+			"y": -31.476838
+		},
+		"pubMillis": 1525799950594
+	}, {
+		"country": "AR",
+		"nThumbsUp": 0,
+		"city": "Córdoba",
+		"reportRating": 0,
+		"confidence": 1,
+		"reliability": 8,
+		"type": "ROAD_CLOSED",
+		"uuid": "ce7b172e-5708-3e84-b9a5-nnnnnn",
+		"magvar": 0,
+		"subtype": "ROAD_CLOSED_EVENT",
+		"street": "Mariano Larra",
+		"reportDescription": "Obras",
+		"location": {
+			"x": -64.232951,
+			"y": -31.381948
+		},
+		"pubMillis": 1524846345256
+	}, {
+		"country": "AR",
+		"nThumbsUp": 0,
+		"city": "Córdoba",
+		"reportRating": 0,
+		"confidence": 5,
+		"reliability": 10,
+		"type": "ROAD_CLOSED",
+		"uuid": "7894141a-9e01-3139-afa4-nnnnnn",
+		"magvar": 0,
+		"subtype": "ROAD_CLOSED_EVENT",
+		"reportDescription": "Obras",
+		"location": {
+			"x": -64.121352,
+			"y": -31.409384
+		},
+		"pubMillis": 1516203538506
+	}],
+	"endTimeMillis": 1525799880000,
+	"irregularities": [{
+		"country": "AR",
+		"nThumbsUp": 0,
+		"updateDate": "Tue May 8 17:20:15 +0000 2018",
+		"trend": 0,
+		"city": "Córdoba",
+		"line": [{
+			"x": -64.176742,
+			"y": -31.423268
+		}, {
+			"x": -64.177895,
+			"y": -31.422958
+		}, {
+			"x": -64.179331,
+			"y": -31.422576
+		}, {
+			"x": -64.179959,
+			"y": -31.422411
+		}, {
+			"x": -64.180711,
+			"y": -31.422213
+		}, {
+			"x": -64.181945,
+			"y": -31.421888
+		}, {
+			"x": -64.182075,
+			"y": -31.421854
+		}, {
+			"x": -64.183355,
+			"y": -31.421526
+		}, {
+			"x": -64.183702,
+			"y": -31.421435
+		}, {
+			"x": -64.184347,
+			"y": -31.421262
+		}, {
+			"x": -64.184715,
+			"y": -31.421166
+		}, {
+			"x": -64.186052,
+			"y": -31.42082
+		}],
+		"detectionDateMillis": 1525799550650,
+		"type": "Medium",
+		"endNode": "Bv. San Juan",
+		"speed": 4.420000000000001,
+		"seconds": 754,
+		"street": "Bv. Arturo Illia",
+		"jamLevel": 4,
+		"id": 145425949,
+		"nComments": 0,
+		"highway": false,
+		"delaySeconds": 600,
+		"severity": 1,
+		"driversCount": 3,
+		"alertsCount": 0,
+		"length": 928,
+		"updateDateMillis": 1525800015634,
+		"nImages": 0,
+		"alerts": [],
+		"detectionDate": "Tue May 8 17:12:30 +0000 2018",
+		"regularSpeed": 13.870000000000001
+	}],
+	"startTimeMillis": 1525799820000,
+	"startTime": "2018-05-08 17:17:00:000",
+	"endTime": "2018-05-08 17:18:00:000",
+	"jams": [{
+		"country": "AR",
+		"city": "Córdoba",
+		"level": 5,
+		"line": [{
+			"x": -64.25817,
+			"y": -31.381006
+		}, {
+			"x": -64.257718,
+			"y": -31.380274
+		}],
+		"speedKMH": 0,
+		"length": 92,
+		"turnType": "NONE",
+		"type": "NONE",
+		"uuid": 44112291,
+		"speed": 0,
+		"segments": [{}],
+		"blockingAlertUuid": "fb186f8a-6933-3022-9672-nnnnnn",
+		"roadType": 6,
+		"delay": -1,
+		"street": "Ramón Cárcano",
+		"pubMillis": 1525606200284
+	}, {
+		"country": "AR",
+		"city": "Córdoba",
+		"level": 5,
+		"line": [{
+			"x": -64.168812,
+			"y": -31.436183
+		}, {
+			"x": -64.168813,
+			"y": -31.435576
+		}],
+		"speedKMH": 0,
+		"length": 67,
+		"turnType": "NONE",
+		"type": "NONE",
+		"uuid": 25251566,
+		"endNode": "Valladolid",
+		"speed": 0,
+		"segments": [{}],
+		"blockingAlertUuid": "02db45e8-2530-36e7-a015-nnnnnn",
+		"roadType": 2,
+		"delay": -1,
+		"street": "Av. Madrid",
+		"pubMillis": 1525606199884
+	}, {
+		"country": "AR",
+		"city": "Córdoba",
+		"level": 5,
+		"line": [{
+			"x": -64.171273,
+			"y": -31.422254
+		}, {
+			"x": -64.171113,
+			"y": -31.422449
+		}, {
+			"x": -64.170962,
+			"y": -31.4226
+		}, {
+			"x": -64.170576,
+			"y": -31.422859
+		}, {
+			"x": -64.170191,
+			"y": -31.423007
+		}, {
+			"x": -64.169832,
+			"y": -31.423075
+		}],
+		"speedKMH": 0,
+		"length": 170,
+		"turnType": "NONE",
+		"type": "NONE",
+		"uuid": 15571859,
+		"speed": 0,
+		"segments": [{}],
+		"blockingAlertUuid": "4fddf8d9-df1f-3d24-91df-nnnnnn",
+		"roadType": 2,
+		"delay": -1,
+		"street": "Int. Mestre",
+		"pubMillis": 1525606199994
+	}, {
+		"country": "AR",
+		"city": "Córdoba",
+		"level": 5,
+		"line": [{
+			"x": -64.169832,
+			"y": -31.423075
+		}, {
+			"x": -64.16939,
+			"y": -31.423136
+		}, {
+			"x": -64.168626,
+			"y": -31.423038
+		}, {
+			"x": -64.166932,
+			"y": -31.422407
+		}, {
+			"x": -64.165621,
+			"y": -31.422116
+		}],
+		"speedKMH": 0,
+		"length": 420,
+		"turnType": "NONE",
+		"type": "NONE",
+		"uuid": 21193748,
+		"endNode": "Puente Letizia",
+		"speed": 0,
+		"segments": [{}],
+		"blockingAlertUuid": "cdf32ded-2028-3272-893d-nnnnnn",
+		"roadType": 2,
+		"delay": -1,
+		"street": "Int. Mestre",
+		"pubMillis": 1525606200753
+	}, {
+		"country": "AR",
+		"city": "Córdoba",
+		"level": 5,
+		"line": [{
+			"x": -64.165987,
+			"y": -31.422927
+		}, {
+			"x": -64.166099,
+			"y": -31.422947
+		}, {
+			"x": -64.167411,
+			"y": -31.423518
+		}, {
+			"x": -64.16779,
+			"y": -31.423649
+		}, {
+			"x": -64.16822,
+			"y": -31.423741
+		}, {
+			"x": -64.16867,
+			"y": -31.423801
+		}, {
+			"x": -64.16988,
+			"y": -31.42382
+		}],
+		"speedKMH": 0,
+		"length": 390,
+		"turnType": "NONE",
+		"type": "NONE",
+		"uuid": 32173643,
+		"speed": 0,
+		"segments": [{}],
+		"blockingAlertUuid": "5549e87d-5122-3e6a-bda2-nnnnnn",
+		"roadType": 2,
+		"delay": -1,
+		"street": "Av. María del Tránsito Cabanillas",
+		"pubMillis": 1525606200716
+	}, {
+		"country": "AR",
+		"city": "Córdoba",
+		"level": 3,
+		"line": [{
+			"x": -64.130044,
+			"y": -31.43629
+		}, {
+			"x": -64.129575,
+			"y": -31.436766
+		}, {
+			"x": -64.129264,
+			"y": -31.437138
+		}, {
+			"x": -64.129074,
+			"y": -31.437394
+		}, {
+			"x": -64.128935,
+			"y": -31.437678
+		}, {
+			"x": -64.128901,
+			"y": -31.437762
+		}, {
+			"x": -64.128761,
+			"y": -31.438155
+		}, {
+			"x": -64.128663,
+			"y": -31.43838
+		}, {
+			"x": -64.128594,
+			"y": -31.438467
+		}, {
+			"x": -64.128249,
+			"y": -31.438836
+		}],
+		"speedKMH": 9.23,
+		"length": 334,
+		"turnType": "NONE",
+		"type": "NONE",
+		"uuid": 216699886,
+		"speed": 2.563888888888889,
+		"segments": [{}, {}, {}, {}, {}],
+		"roadType": 2,
+		"delay": 98,
+		"street": "Av. Gdor. Amadeo Sabattini",
+		"pubMillis": 1525799995076
+	}]
+}
