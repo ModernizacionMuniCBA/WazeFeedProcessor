@@ -7,7 +7,9 @@ Waze entrega un feed json/xml con datos minuto a minuto a las ciudades que forma
 [Aquí](sample-data-test-modified.json) hay una version reducida de los datos que recibimos.
 
 # Opción planificada
-Usar: 
+Nois parece interesante el camino que eligió Medellín (COL). Esta contado en [este video](https://www.youtube.com/watch?v=eXK4F-Plz-k&feature=youtu.be&t=5h14m10s).
+
+En resumen queremos usar: 
  - **Logstash** para conectarse a los datos y grabarlos
  - **Elasticsearch** para almacenar los datos
  - **Kibana** para analizar y visualizar los datos
