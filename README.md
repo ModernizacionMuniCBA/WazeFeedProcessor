@@ -8,7 +8,7 @@ Waze entrega un feed json/xml con datos minuto a minuto a las ciudades que forma
 Posiblemente este documento acumule millones de registros por mes. 
 
 # Opción planificada
-Nois parece interesante el camino que eligió Medellín (COL). Está contado en [este video](https://www.youtube.com/watch?v=eXK4F-Plz-k&feature=youtu.be&t=5h14m10s).
+Nos parece interesante el camino que eligió Medellín (COL). Está contado en [este video](https://www.youtube.com/watch?v=eXK4F-Plz-k&feature=youtu.be&t=5h14m10s).
 
 En resumen queremos usar: 
  - **Logstash** para conectarse a los datos y grabarlos
