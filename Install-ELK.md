@@ -36,23 +36,29 @@ $ dpkg -i elasticsearch-6.3.2.deb
  
  ### Kibana
  
+ 
  **Instalacion**
+ 
 Descargamos kibana Version 6.3.2 y su hash sha-512
 
 ```sh
 $ wget  https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-amd64.deb
 $ wget  https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-amd64.deb.sha512
 ```
+
 Comparamos si los  hash son igual.
+
 ```sh
 $ shasum -a 512 -c kibana-6.3.2-amd64.deb.sha512
 ```
 Si es igual procederemos instarlarlo
 ```sh
-$ dpkg -i elasticsearch-6.3.2.deb
+$ dpkg -i kibana-6.3.2-amd64.deb
 ```
  **Configuracion**
+ 
 Configuramos que  se puede acceder a kibana solo localamente. Utilizaremos nginx que actuara como reverse proxy(proxy_pass) desde el puerto 80 al puerto 5601
+
  /etc/kibana/kibana.yml
  ```sh
 server.port: 5601
@@ -74,11 +80,16 @@ $ dpkg -i logstash-6.3.2.deb
 ```
 
  ### Nginx
+ 
  **Instalacion**
+ 
  ```sh
  apt-get install nginx apache2-utils
  ```
+ 
  **Configuracion**
+ Esto permite acceder por su ip o FQDN
+ 
 /etc/nginx/sites-available/default
   ```sh
 server {
@@ -101,7 +112,7 @@ server {
      }
 }
 ```
-Ingresamos usuario kibanadmin
+Ingresamos el usuario y nos solicitara que ingresemos password que podra acceder a kibana 
  ```sh
     htpasswd -c /etc/nginx/.htpasswd kibanaadmin
  ```
