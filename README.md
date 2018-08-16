@@ -18,3 +18,7 @@ En resumen queremos usar:
 # Otras opciones
 La ciudad de Luisville en USA enfrento este problema y [dejo liberada una descripción de la infraestructura en GitHub](https://github.com/LouisvilleMetro/WazeCCPProcessor/). Al parecer ya hay decenas de Gobiernos usándola
 
+# Instalación
+
+1 - Instalar [ELK](Install-ELK.md).
+2 - Consumir datos va Logstash y grabar en elasticsearch ([en proceso](https://github.com/ModernizacionMuniCBA/WazeFeedProcessor/issues/1))
