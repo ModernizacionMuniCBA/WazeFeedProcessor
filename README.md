@@ -20,5 +20,5 @@ La ciudad de Luisville en USA enfrento este problema y [dejo liberada una descri
 
 # Instalación
 
- - Instalar [ELK](Install-ELK.md).
+ - Instalar en el servidor ELK: [Ver instrucciones](Install-ELK.md).
  - Consumir datos va Logstash y grabar en elasticsearch ([en proceso](https://github.com/ModernizacionMuniCBA/WazeFeedProcessor/issues/1))
